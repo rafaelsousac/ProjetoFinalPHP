@@ -1,0 +1,53 @@
+body {
+	font-size: 18pt;
+	margin: 0;
+	align: center;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing = border-box;
+}
+
+.dp-menu ul{
+	list-style-type: none;
+	padding: 0;
+	background-color: rgb(37, 37, 39);
+}
+
+
+.dp-menu ul li{
+	display: inline;
+	position: relative;
+}
+
+.dp-menu ul li a{
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px;
+}
+
+.dp-menu ul li a:hover{
+	background-color: rgb(24, 139, 233);
+}
+
+.dp-menu ul ul{
+	display: none;
+	left: 0;
+	position: absolute;
+}
+
+.dp-menu ul li:hover ul{
+	display: block;
+}
+
+.dp-menu ul ul{
+	width: 125px;
+}
+
+.dp-menu ul ul li a{
+	display: block;
+	
+}
